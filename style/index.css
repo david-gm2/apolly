@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: Josefin Sans;
+  font-weight: 600;
+  background-color: #f4f4f4;
+  color: #333;
+  overflow-x: hidden;
+}
+
+body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.bkgr-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: url("../img/background.png") no-repeat center center;
+  background-size: cover;
+  height: 1227px;
+}

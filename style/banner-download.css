@@ -1,0 +1,83 @@
+.banner-download-wrapper {
+  position: relative;
+  width: 323px;
+  height: 318px;
+  top: 98px;
+  left: 1rem;
+}
+
+.banner-download-border {
+  position: absolute;
+  inset: 0;
+  width: 323px;
+  height: 358px;
+  border: 10px solid #7572ff;
+  transform: translate(20px, -20px);
+  z-index: 0;
+}
+
+.banner-download.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding: 18px;
+  z-index: 1;
+}
+
+.banner-download.title {
+  font-family: Josefin Sans;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 37.5px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #5956e9;
+}
+
+.banner-download.description {
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #6c6c72;
+}
+
+.banner-download.action {
+  font-family: Josefin Sans;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #232233;
+}
+
+.banner-download.img {
+  height: 34.13px;
+  width: 228px;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-download.img img {
+  width: 108.19px; /* la imagen puede ser más grande */
+  height: 34.13px;
+  object-fit: cover;
+}
+
+.banner-app-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 521px;
+  top: 40px;
+  left: 55px;
+}
+
+.banner-app.img {
+  position: absolute;
+  width: 466px;
+  height: 521px;
+}
