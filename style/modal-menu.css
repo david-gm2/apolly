@@ -24,7 +24,7 @@
   height: 356px;
   border-radius: 10px;
   background-color: white;
-  transform: translateY(-400px);
+  transform: translateY(-900px);
   transition: left 0.9s ease-in;
   z-index: 100;
 }

@@ -1,4 +1,11 @@
-header {
+.top-nav,
+& .header-separator,
+& .top-nav-izq,
+& .top-nav-der {
+  display: flex;
+}
+
+.header-separator {
   position: relative;
   background-color: white;
   display: flex;

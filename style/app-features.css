@@ -1,0 +1,52 @@
+.app-features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: url("../img/background.png") no-repeat center center;
+}
+
+.app-features-text {
+  text-align: center;
+  justify-content: center;
+}
+
+.app-features-title {
+  font-family: Josefin Sans;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 37.5px;
+  letter-spacing: 0%;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.app-features-description {
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.app-features-card-title {
+  font-family: Josefin Sans;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: bottom;
+  text-transform: uppercase;
+}
+
+.app-features-card-description {
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
