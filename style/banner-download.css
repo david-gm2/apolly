@@ -1,14 +1,19 @@
-.hero-img {
-  width: 100%;
-  height: 1024px;
-}
-
 .banner-hero-container {
   margin: 138px 0 0 16px;
   display: flex;
   gap: 40px;
   flex-direction: column;
 }
+
+/* opcional centrado */
+.banner-hero-container {
+  margin: 138px 0 0 0;
+  align-items: center;
+}
+.banner-hero-container img {
+  transform: translateX(100px);
+}
+/* --------------- */
 
 .banner-download-wrapper {
   position: relative;
@@ -90,6 +95,7 @@
     flex-direction: row;
     gap: 90px;
     margin: 303px 0 0 40px;
+    align-items: center;
   }
 
   .banner-download-border {

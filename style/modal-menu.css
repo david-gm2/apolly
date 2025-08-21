@@ -1,7 +1,4 @@
 .menu-icon-label {
-  &.open {
-    margin: 8px 9px;
-  }
   &.close {
     height: 35px;
     width: 35px;

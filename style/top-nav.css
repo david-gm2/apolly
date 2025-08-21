@@ -1,0 +1,40 @@
+.top-nav,
+.header-separator,
+.top-nav-izq,
+.top-nav-der {
+  display: none;
+}
+
+.top-nav {
+  justify-content: space-between;
+  margin: 0 40px 35px 40px;
+  gap: 30px;
+}
+
+.top-nav * {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.top-nav-izq {
+  gap: 48px;
+}
+
+.mail-header {
+  margin: 3px 18px 3px 3px;
+}
+
+.top-nav-der {
+  gap: 30px;
+}
+
+@media (min-width: 768px) {
+  .top-nav {
+    padding: 25px 0 0 0;
+    display: flex;
+  }
+}

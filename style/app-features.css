@@ -3,12 +3,16 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background: url("../img/background.png") no-repeat center center;
+  background: url("../img/background.png") center center;
+  background-size: cover;
+  padding: 60px 20px;
+  color: #ffffff;
+  gap: 32px;
 }
 
 .app-features-text {
   text-align: center;
-  justify-content: center;
+  justify-items: center;
 }
 
 .app-features-title {
@@ -17,7 +21,6 @@
   font-size: 25px;
   line-height: 37.5px;
   letter-spacing: 0%;
-  color: #ffffff;
   text-transform: uppercase;
 }
 
@@ -26,20 +29,45 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #ffffff;
   letter-spacing: 0%;
   text-align: center;
+  width: 300px;
+}
+
+.app-features-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.app-features-cards-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.app-features-card {
+  justify-items: center;
+}
+.app-features-card img {
+  margin-bottom: 30px;
+}
+
+.app-features-card-text {
+  text-align: center;
+  justify-items: center;
 }
 
 .app-features-card-title {
   font-family: Josefin Sans;
   font-weight: 600;
-  font-size: 20px;
   line-height: 30px;
   letter-spacing: 0%;
   text-align: center;
-  vertical-align: bottom;
   text-transform: uppercase;
+  margin-bottom: 18px;
 }
 
 .app-features-card-description {
@@ -49,4 +77,79 @@
   line-height: 24px;
   letter-spacing: 0%;
   text-align: center;
+  width: 223px;
+  height: 43px;
+}
+
+.app-features-card-banner img {
+  width: 214px;
+  height: 468px;
+  border-radius: 40px;
+  box-shadow: 40px 40px 100px 0px #18303f80;
+}
+
+.app-features-cards-divider {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .app-features {
+    padding: 120px 20px;
+    gap: 60px;
+  }
+  .app-features-title {
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 47.25px;
+  }
+  .app-features-description {
+    width: 450px;
+  }
+  .app-features-cards {
+    gap: 60px;
+  }
+  .app-features-cards-divider {
+    gap: 60px;
+  }
+  .app-features-cards-flex {
+    flex-direction: row;
+    gap: 18px;
+  }
+  .left .app-features-card {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: end;
+  }
+  .right .app-features-card {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: start;
+  }
+  .left .app-features-card-text {
+    justify-items: flex-end;
+  }
+  .right .app-features-card-text {
+    justify-items: flex-start;
+  }
+  .right .app-features-card-title {
+    text-align: start;
+  }
+  .left .app-features-card-title {
+    text-align: end;
+  }
+
+  .right .app-features-card-description {
+    text-align: start;
+  }
+  .left .app-features-card-description {
+    text-align: end;
+  }
+  .app-features-card-banner img {
+    box-shadow: 10px 10px 100px 0px #18303f4d;
+  }
 }

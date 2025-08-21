@@ -1,12 +1,12 @@
 .about-app {
-  width: 343px;
-  margin: 1287px 11px 0 16px;
+  margin: 60px 0 92px;
 }
 
 .about-app-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 42px;
 }
 
 .about-app-text {
@@ -26,13 +26,14 @@
   letter-spacing: 0%;
   text-transform: uppercase;
   margin-bottom: 18px;
+
+  width: 209px;
+  height: 38px;
 }
 
 .about-app-text p {
   width: 300px;
-  height: 70;
-  top: 56px;
-  left: 22px;
+  height: 70px;
   color: #6c6c72;
 
   font-family: Josefin Sans;
@@ -62,11 +63,6 @@
   box-shadow: 0px 1px 10px 0px #0000001a;
   border-radius: 50%;
   color: white;
-}
-
-.about-app-cards {
-  margin-top: 42px;
-  margin-bottom: 92px;
 }
 
 .about-app-card {
@@ -110,4 +106,27 @@
   letter-spacing: 0%;
   word-break: break-all;
   color: #6c6c72;
+}
+
+@media (min-width: 768px) {
+  .about-app {
+    margin: 120px 39px 92px 40px;
+  }
+  .about-app-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .about-app-title {
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 47.25px;
+    width: 265px;
+    height: 48px;
+  }
+  .about-app-text p {
+    width: 450px;
+  }
 }
