@@ -1,16 +1,49 @@
 .team-section {
   justify-items: center;
+  padding: 67px 15px 217px;
+}
+
+.team-section-text {
+  justify-items: center;
+  width: 300px;
+  margin-bottom: 40px;
+}
+
+.team-section-text h2 {
+  font-family: Josefin Sans;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 37.5px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+
+  margin-bottom: 18px;
+  color: #232233;
+}
+
+.team-section-text p {
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+
+  color: #6c6c72;
 }
 
 .team-cards {
-  margin: 0 12px;
-  box-shadow: 0px 1px 10px 0px #0000001a;
-  border-radius: 10px;
-  padding: 29px 30px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .team-card {
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px 0px #0000001a;
   justify-items: center;
+  max-width: 343px;
+  padding: 29px 15px 53px;
 }
 
 .team-card-profile-container {
@@ -37,10 +70,11 @@
 .team-card-text h3 {
   font-family: Josefin Sans;
   font-weight: 700;
-  font-size: 31.25px;
+  font-size: 30.25px;
   line-height: 47.25px;
   letter-spacing: 0%;
   text-transform: uppercase;
+  color: #232233;
 }
 
 .team-card-text h5 {
@@ -50,6 +84,9 @@
   line-height: 30px;
   letter-spacing: 0%;
   text-transform: uppercase;
+  color: #6c6c72;
+
+  margin-bottom: 14px;
 }
 
 .team-card-text p {
@@ -64,11 +101,20 @@
 .social-media-container {
   display: flex;
   flex-direction: row;
-  gap: 36px;
-  margin-top: 38px;
+  gap: 31px;
+  margin: 38px 31px 0 30px;
 }
+
+.social-media-container a img {
+  filter: brightness(0) saturate(100%) invert(10%) sepia(13%) saturate(1798%)
+    hue-rotate(204deg) brightness(96%) contrast(89%);
+
+  width: 24px;
+  height: 24px;
+}
+
 .separator {
   width: 1px;
   height: 24px;
-  background-color: #fff;
+  background-color: #232233;
 }
